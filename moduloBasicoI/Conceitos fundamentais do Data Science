@@ -1,0 +1,28 @@
+- A ciência usa de várias ferramentas consolidadas para explorar a racionalidade e metodologia dos dados
+
+Estatística: Campo da matemática que trabalha com coleta, análise, interpretação e apresentação da massa de dados númericos
+
+Matemática: Trabalho com Funções
+
+Tecnicas Computacionais: Conjunto de conhecimentos em computação e programação( Necessidade de Rede de Computadores para operação
+das necessidades )
+
+Lógica: Determinação do que é verdadeiro ou não
+
+Linguagem R: Linguagem de Programação para estatistica, orientada a objetos, 
+Python: Linguagem Python, Alto nível, Mais Abrangente
+
+Algoritmo: Conjunto de funções para serem seguidos para resolver um problema
+
+Big Data: Composto dos 5 Vs a qual possui amplas características para o conjunto de dados
+
+BI: Business Inteligence, proporcionar uma coleta, organização, análise, compartilhamento e monitoramento de informações que
+oferecem suporte de gestãpo aos negócios
+
+Data Lake: Dados de Lago, conjunto de dados desorgabnizados que ainda não foram estruturados
+
+Data Transformation: Conversão de Dados para uma estrutura que gere valor e que faça sentido para o usuario.
+
+Data Warehouse: Base de dados estruturados, MySQL por exemplo
+Mais Fácil/Menores Dados -> ELT: Extract, Loading and Transformation, basicamente o sistema irá faça todo o processo de extração e carregamento e só após fará a transformação
+Mais Difícil/Maiores Dados -> ETL: Extract, Trnasformation and Loading, o sistema irá extrair e após isso transformar ja na base bruta dos dados, agora sim ele irá carregra eles
