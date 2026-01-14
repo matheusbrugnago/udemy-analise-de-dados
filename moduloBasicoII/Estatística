@@ -1,0 +1,59 @@
+Conjunto de métodos e processos quantitativos para medir fenômenos coletivos
+
+População: Conjunto de Todos os Itens( pessoas, coisas, objetos )
+Amostra: Qualquer subconjunto dentro da população não sendo Vazio 
+Parâmetro: Característica Númerica estabelecida para toda população
+Estimativa: Característica Numérica estabelecida para uma Amostra da População 
+
+Estatística Descritiva: Objetivo de descrever os dados observados, atribui-se:
+a) A obtenção de e dados estatísticos, 
+b) A organização dos dados, 
+c) A redução dos dados, 
+d) representação dos dados,
+e) obtenção de algumas informações que auxiliam a descrição do fenômeno observado,
+
+Estatística Inferencial ou Indutiva: Obter e genrealizar conclusões para a população a partir de uma amostra,
+através do cálculo da Contabilidade. 
+
+QUANTO MAIOR O GRUPO DE DADOS( POPULAÇÃO ) IRÁ SER MENOR O GRUPO DE AMOSTRA -> MACRO DADOS
+QUANTO MENOR O GRUPO DE DADOS( POPULAÇÃO ) IRÁ SER MAIOR O GRUPO DE AMOSTRA -> MICRO DADOS
+
+Censo: É uma avaliação direta de um parâmetro em cima de uma População, que utiliza todos os 
+componentes da População.
+Propriedades: 
+- Admite erro processual zero e tem confiabilidade 100 % 
+- É caro 
+- É lento
+- É quase sempre desatualizado
+- Nem sempre é viável
+Ex.: Censo IBGE, Censo de Saneamento Básico, Censo de Educação . . .
+
+Estimador: É uma avaliação indireta de um parâmetro, com base em estimador através do cálculo de probabilidades
+Propriedades: 
+- Admite erro processual positivo e tem confiabilidade menor que 100% 
+- É barata
+- É rápida
+- É atualizada
+- É sempre viável
+
+Dados Brutos ( Na Estatística ): Valores que não estão ordenados, manipulados, que são utilizados ferramentas
+
+ROL: Quando se ordena os dados brutos estatísticos em sequência crescente ou decrescente:
+
+- 4,8,7,5,6,5 ( Dados Brutos ) 
+
+OU 
+
+- 4,5,5,6,7,8 ( ROL )
+
+Variável: Característica dos elementos da amostra ou população que nos interessa( Idade, Valor, Nome )
+
+Variável Quantitativa: São aquelas cujos valores são expressos em números, 
+Discreta: Números Inteiros ( resultado finito, enumerável ). Qual a sua idade? Tenho 24 anos
+Contínua: Número de conjunto dos números reais. Quantos anos que vc tem? Quantos meses vc tem? -> Especifico
+
+Variável Qualitativa: São aqueles cujos valores podem ser separados em diferentes categorias não numéricas.
+Ex.: Sexo ( masculino ou Feminino ), cor de cabelo( castanho, loiro, moreno etc...)
+Nominal: Em que a Ordem não têm Importância -> Qual o seu nome? Ana
+Ordinal: Em que a Ordem assume Importância -> Qual a sua classificação? R.: Fiquei em 1° Lugar
+
