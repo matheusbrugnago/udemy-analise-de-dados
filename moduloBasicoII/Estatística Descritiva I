@@ -1,0 +1,36 @@
+A ideia é descrever e sumarizar os dados( resumir ) em algo mais simples de ser compreensível
+
+Métodos, os dois principais:
+* Tabelas de Frequência( Simples ou em Classes )
+* Gráficos
+
+Métodos acessórios:
+* Medidas de Posição
+* Medidas de Dispersão
+* Medidas de Distribuição dos Dados ( assimitria, curtose, boxplot)
+* Estatística Resumo
+* Estatística de Tendência
+
+Tabelas de Frequência
+-> Mais utilizada. Sumariza os dados
+-> É um representação tabular ou gráfica
+-> Irá depender diretamente do tipo da variável, como podemos ver a seguir:
+* Variáveis Quantitativas: 
+  -> Discretas: Tabelas de Frequencia Simples( amostra/escala é pequena ) ou Tabela de Classes de Frequencia ( amostra/escala é grande)
+  -> Contínuas: Tabelas de Classes de Frequência
+* Variáveis Qualitativas:
+  -> Nominais: Tabela de Frequência Simples
+  -> Ordinal: Geralmente não se aplica essa visualização de dados para variaveis ordinais
+
+Tamanho e Variedade Amostral
+
+* Se n ( tamanho da amostra ) > 30 : Geralmente usamos a Tabela de Classes de Frequência
+===================================================================================================
+
+Tabela de Frequência Simples
+
+* Na primeira coluna estão os valores individuais observados no conjunto de dados ( xi )
+* Na segunda coluna está uma contagem absoluta de cada valor observado ( fi ) e dela nascem as outras contas
+    * A terceira coluna é geralmente uma contagem acumulada absoluta (Fi)
+    * A quarta coluna é geralmente uma contagem relativa ao total ( fri )
+    * A quinta coluna é geralmente uma contagem acumulativa relativa ao total ( Fri )
