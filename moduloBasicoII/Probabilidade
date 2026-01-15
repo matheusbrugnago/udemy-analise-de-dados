@@ -1,0 +1,42 @@
+A probabilidade é uma subárea da matemática que demonstra a chance de um evento acontecer, considerando algumas possibilidades
+
+Estuda as chances de ocorrência de um evento acontecer em um experimento aleatório. ( Jogo na loteria, Lançamentos de Dado )
+A probabilidade está ligada à população( a natureza ), entretanto a frequência está limitada à amostra, um subgrupo pequeno.
+
+Importância: Descrever por um modelo matemático que lhe traz a possibilidade de uma ocorrência acontecer
+
+================================================================
+
+Fenômeno: Qualquer acontecimento natural;
+
+Tipos:
+
+* Determinísticos: São aqueles que repetidos sob mesmas condições iniciais conduzem sempre à um só resultado. 
+Ex.: Bola que é lançada para Cima
+* Aleatórios ou Não determinísticos: São aqueles que repetidos sob mesmas condições iniciais podem conduzir a mais que um resultado
+Ex.: Lançamento de Dados, quem vai ganhar?
+
+-> Probabilidade trabalha com Fenômenos Aleatórios!
+
+Características de Experimento Aleatório:
+* Repetitividade
+* Regularidade de resultados que se repetem. A avaliação númerica da possibilidade de ocorrência destes resultados dará origem 
+às possibilidades
+
+Espaço Amostral ( S ):
+Todos os resultados possíveis de experimento
+Ex.: Lançamento de Moeda de Cara e Coroa, então somente pode cair ou C ( cara ) ou K ( coroa ) então S={ C,K } 
+     Lançamento de Dado de seis faces, então S={1,2,3,4,5,6}
+     Lançamento de duas moedas e verificar o lançamento das faces superiores: S={cc,ck,kk,kc}
+
+Evento:
+Subconjunto menor desse Espaço Amostral(S)
+Ex.: Lançamento de um dado [S={1,2,3,4,5,6}], podemos ter os subconjuntos A={1,2}, B={3,5,6}
+S é denominado Evento Certo, o contrário dele, é um evento vazio( quando não é feito nada )
+
+Proposições de Probabilidade:
+
+0 <= P(E) <= 1 : A probabilidade de um fenômeno acontecer está entre Zero e Um, de 0% à 100 %
+P(S) = 1 : A probabilidade para o Espaço Amostral é igual a 1
+P( E^C) = 1 - P(E) : A probabilidade do complemento de E ocorrer é igual a 1 menos Probabilidade de E ocorrer
+Se E C F, então P(E) <= P(F) : Se E está contido em F, a probabilidade de E é menor ou igual à probabilidade de F
