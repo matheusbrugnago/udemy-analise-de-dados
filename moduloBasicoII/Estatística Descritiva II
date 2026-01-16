@@ -1,0 +1,49 @@
+Tabelas de Classes de Frequência
+
+1° Encontrar o número de Classes:
+
+Método Raiz = Vn  , n= quantidade de valores -------> Numero de n menor que 30
+Método de Sturges = 1 + 3,322 logn -----> Numero de n entre 30 e 200
+Rice = 2n^(1/3) -----> Numero de n maiores que 200
+
+Opte por aprocimar os valores das classes para cima
+
+2° (Amplitude) Tamanho da Classe:
+
+Cada classe tem a mesma amplitude ( h ) = Amplitude Total ( Maior Valor - Menor Valor ) / Numero de Classes 
+
+A quantidade de Classes vai determinar a quantidade de Bins do meu cálculo
+===========================================================================
+
+Medidas de Posição
+
+Média Aritmética : Valor Central de todos os elementos de um conjunto de dados.
+x1 + x2 + x3 + .... / Numero Total de Elementos
+
+Média Ponderada: Valor central de todos os elementos a qual cada um possui um peso associado
+(x1*1 ) + (x2*2) + (x3*3) + (x4*4) . . ./ Numero total de Elementos
+
+Mediana : Valor que está no centro de uma sequencial numérica ( 1,2,3,4,5 ) , Mediana é 3
+
+Moda : Valor que mais aparece no conjunto de dados
+
+Simetria de Dados:
+Média = Moda = Mediana : Distribuição Simétrica
+Média > Mediana > Moda : Distribuição Assimétrica Positiva 
+Média < Mediana < Moda : Distribuição Assimétrica Negativa
+
+===========================================================================
+
+Medidas de Disperção
+
+At  = x(max) - x(min)  -> Deve-se buscar a Amplitude de um conjunto de Dados, para isso, deve-se pegar o dado maior e subtrair pelo
+dado menor
+
+Variância : Define-se o quanto que há de variância no gráfico consultado : 
+
+v = ( elementox1 - media final )^2 + ( elementox2 - media final )^2 + ( elemento3 - media final )^2 etc... / N ( Numero de Elementos )
+desvio padrão = Raiz Quadrada da variância
+
+É definido o quanto de variância há da Média Final tanto para cima quanto para baixo.
+
+Coeficiente de Variação : Desvio Padrão / Média Aritmética Final
