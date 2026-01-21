@@ -1,0 +1,23 @@
+Utilização de Algoritmos por Computador
+Utiliza-se Linguagem de Programação para funcionamento
+- R ( 30 % )
+- Python ( 70 % )
+
+Fluxo da Programação :
+
+Entrada -> Processamento -> Saída
+
+Tipos de Dados:
+Inteiro - Int
+Reais - Float
+Caracteres - Aspas Simples/Duplas
+Lógicos - True/False
+Variável - Reserva de espaço dentro do Computador
+   -> Nome da variável deve ser limpo, sem traços, sem números float e estes não podem estar no começo. Pode contar com underline
+
+Atribuição
+a,b = 10,3 , sim isso é possível
+
+Precedência das Operações:
+
+Parênteses -> Raiz -> Potência -> Divisão e Multiplicação -> Adição e Subtração -> Relacionais -> Lógicos
