@@ -20,5 +20,11 @@ Distribuições de Frequências - Tipos:
 Simétrica( Ou em Sino ): O valor médio está localizado no centro, é encurvado, ao centro há mais valores
 
 Assimétrica: O valor médio está localizado fora do centro do histograma, jogado para lado direito ou esquerdo.
+Assim.Direita: Cauda se extende à direita
+Assim.Esquerda: Cauda se extenda à esquerda
 
 Despenhadeiro : O valor médio está localizado fora do centro do histograma, caimento de forma abrupta
+
+Bi Modal: Quando o gráfico apresenta dois picos, duas médias distintas
+
+
