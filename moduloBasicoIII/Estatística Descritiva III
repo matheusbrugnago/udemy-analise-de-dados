@@ -1,0 +1,24 @@
+Distribuição de Frequência:
+
+Utiliza-se o Gráfico de HISTOGRAMA
+A distribuição de frequência trabalha-se em cima da tabela de frequencia de classes 
+
+Frequência Absoluta ou Simples ( fi ): 
+fi = count(i) 
+
+Freuência Relativa ( fri ):
+fri = count(i) / n
+
+Frequência Relativa ( fri ) vs Probabilidade ( p ):
+Frequência Relativa ( fri ) é considerada uma estatística, que vêm da amostra
+Probabilidade (p) é considerada um parâmetro, que vem da população
+
+Se meu N passa de um valor infinito de dados, meu fri converge à uma proabilidade
+
+Distribuições de Frequências - Tipos:
+
+Simétrica( Ou em Sino ): O valor médio está localizado no centro, é encurvado, ao centro há mais valores
+
+Assimétrica: O valor médio está localizado fora do centro do histograma, jogado para lado direito ou esquerdo.
+
+Despenhadeiro : O valor médio está localizado fora do centro do histograma, caimento de forma abrupta
