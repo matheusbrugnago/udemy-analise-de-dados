@@ -1,0 +1,42 @@
+Gráficos: Representações Visuais dos nossos dados
+
+Surge a partir de uma tabela: Linhas x Colunas básico, São dados estruturados
+
+- Grafico de Barra:
+  Formado por retângulos horizontais,
+  Larguras Iguais,
+  Eixo Y tem Categorias, Eixo X é a Frequência Absoluta,
+  Representa a intensidade de uma modalidade ou atributo ,
+
+- Gráfico de Coluna:
+  Eixo X tem as Categorias, Eixo Y tem a Frequência( relativa ou absoluta )
+  Diefere do gráfico de Barras,
+  Retângulo Dispostos verticalmente
+
+-> Tanto por Coluna quanto por Barra devem ser feitos dentro o intervalo de 2-7 categorias, 
+   quanto mais próximo de 2 o ideal é usar COLUNAS e quanto mais próximo de 7 o ideal é estar utilizando
+  de Barras.
+
+- Gráfico de Coluna - 2 categorias simultâneas:
+  Quando descrevo duas colunas para a mesma variável, com colunas subrepostas,
+  são do tipo comparação. Quanto menos categorias, melhor a análise. 
+
+- Gráficos de Setores ( ou pizza ) :
+  Usado o fri ( relativa ao valor total de itens ) com o valor de 360 graus, dando 100 %
+  Círculo dividido em setores com a frequencia relativa
+  1 variável utilizada
+
+- Gráfico de Linhas 
+  Aplicação indicada para representações de séries temporais,
+  Eixo X definido como série de Tempo e Eixo Y definido como variáveis,
+  Define flutuação e se houve grande mudanças ao longo do tempo,
+  Ligue um período do tempo à um valor de frequência, 
+
+- Histograma
+  Eixo X trabalha com valores, as classes, um intervalo de valores ( min - max )
+  Eixo Y trabalha com variáveis de resultado
+
+- Gráfico de Dispersão 
+  Representação de dados de uma ou mais variáveis, 
+  Organizadas em um gráfico,
+  Utiliza coordenadas cartesianas
