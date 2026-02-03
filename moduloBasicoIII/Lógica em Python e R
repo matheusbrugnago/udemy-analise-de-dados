@@ -1,0 +1,160 @@
+Vetores em R: 
+
+> x <- c(2,3,4) #valores do vetor que serão inseridos em x
+> y <- c(6,1,2) #valores do vetor que serão inseridos em y
+
+> x + y
+> 8  4  6 #soma de todos os itens para cada vetor
+=============================================================
+
+Operadores Aritméticos em R:
+
+Soma = + 
+Subtração = -
+Multiplicação = * 
+Divisão = / 
+Divisão Inteira = %/%
+Módulo(resto) = %%
+Exponenciação = ^
+
+Operadores Aritméticos em Python:
+
+Soma = + 
+Subtração = -
+Multiplicação = * 
+Divisão = / 
+Divisão Inteira = //
+Módulo(resto) = %
+Exponenciação = **
+
+===============================================================
+
+Operadores Lógicos em R:
+
+E lógico(vetorial/elementos) = &
+E lógico(escalar/usado em estruturas) = &&
+OU lógico(vetorial/elementos) = |
+OU lógico(escalar/usado em estruturas) = ||
+NÃO lógico = !
+Exemplos:
+> x <- c(TRUE,FALSE,0,6)
+> y <- c(FALSE,TRUE,FALSE,TRUE)
+
+> !x
+  FALSE TRUE TRUE FALSE
+> x & y
+  FALSE FALSE FALSE TRUE
+> x && y
+  FALSE
+> x | y
+  TRUE TRUE FALSE TRUE 
+> x || y
+  TRUE
+
+Operadores Lógicos em Python:
+E lógico = and
+OU lógico = or 
+NÃO lógico = not 
+
+====================================================================
+
+Operadores de Atribuição no R:
+
+Atribuição à esquerda : <- , <<- , =
+Atribuição à direita : -> , ->>
+
+Operadores de Atribuição no Python: 
+
+= , += , -=, *= , /= , %=
+
+====================================================================
+
+Laços Condicionais no R e Python
+
+If no R:
+
+if( condition ) { 
+  statement
+  statement
+  . . .      ## Braço de TRUE
+} else { 
+  statement
+  statement
+  ...       ## Braço de False
+}
+
+If no Python:
+
+if  condition : 
+  statement
+  statement ## Braço do True
+else:
+  statement
+  statement ## Braço do False
+
+=============================================================
+
+Laços de Repetição no R e Python
+
+R - while:
+
+while ( condition ) {
+  statement
+  statement
+  }
+
+Python - while:
+
+while condition :
+  statement
+  statement 
+else:
+  statement
+
+R -for:
+
+for ( var in iterable ) {
+  statement
+  statement
+  . . .    ##For
+}
+Ex.: 
+
+x <- c(2,5,3,9,8,11,6)
+count <- 0
+for ( val in x) {
+  if ( val %% 2 == 0 ) 
+  count = count+1
+  }
+print(count)
+
+Python - for:
+
+for i in range(5):
+  statement 1,
+  statement 2,
+  . . .
+else:
+  statement
+
+======================================================
+
+Função no R:
+
+name <- function(args) {
+     result <- x^y ( ex.: exponenciação )
+Executando:
+
+name(10,2)
+Resultado: 100 ( 10 elevado à 2 )
+
+Função no Python:
+
+def name( args ):
+  statement
+  statement
+  return(value)
+
+=============================================================
+
+
