@@ -1,0 +1,25 @@
+Como é feito o Aprendizado de um Algoritmo?
+
+- Melhoria de Experiência
+- Baseado em três pilares :
+  - Tarefa = T,
+  - Desempenho = D,
+  - Experiência = E,
+- Não adianta haver foco específico ( Tarefa T )
+- Não adianta gastar muito tempo e recursos com desempenho baixo ( Desempenho D )
+- Não estar baseado em teste ruins ou base de dados ruins ( Experi~encia E )
+-> Boa Experiência -> Bom Aprendizado -> Dentro de Tempo Razoável
+
+-> Maquinas aprendem de dados sem serem explicitamente programadas
+-> LLM Modelo de Linguagem de Grande Escala -> Ele prevê o que vai ser feito com base nos dados adquiridos,
+  gera texto de uma forma parecida ao do humano. 
+-> Aprendizado supervisionado( máquinas aprendem via exemplos entregues, e sugerem algo de acordo com o correpondente que informei )
+-> Aprendizado não supervisionado ( máquinas aprendem a partir de grupo de informações, o correspondente é dado pela máquina )
+-> Aprendizado por reforço: máquinas aprendem via feedbacks positivos e negativos
+
+Processo de Aprendizagem:
+
+Mundo REAL( dados brutos ) -> Dispositivos de Coleta/Mensuração( sensores,pesquisas,redes sociais) -> Pré-Processamento
+(Filtro de Ruído, Extração de Recursos, Normalização padronização ) -> Redução da Dimensionalidade ( redução do número de coletas, 
+observa-se o que é similar, Amostragem ) -> Aprednizado Via Modelo ( Classificação, Regressão, Agrupamento, Descrição )
+
