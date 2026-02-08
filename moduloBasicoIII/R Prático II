@@ -1,0 +1,42 @@
+Funções Rápidas:
+
+#dimensoes
+dim(vetor_naonumerico) #vetores não tem dimensão 2d, então retorna NULL
+dim(matriz_exemplo) # 3 linhas e 3 colunas
+
+#numero de elementos da lista
+length(lista_exemplo)
+
+#numero de linhas da matriz
+nrow(matriz_exemplo) # 3 linhas - vetor e lista NULL
+
+#numero de colunas da matriz
+ncol(matriz_exemplo) #3 linhas - vetor e lista NULL
+===============================================================
+DATAFRAME:
+Basicamente, uma tabela em formato de objeto no R
+
+# Criando um dataframe com três colunas e duas linhas
+df <- data.frame(
+  Nome = c("João", "Maria"),
+  Idade = c(28, 34),
+  Profissão = c("Engenheiro", "Médica")
+)
+
+# Exibindo o dataframe
+print(df)
+
+#acessando apenas a coluna nome
+print(df$Nome)
+
+#criando uma nova coluna
+df$Salário <- c(5000, 8000)
+
+mean(df$Idade, na.rm = TRUE) #ignorando valores vazios
+
+plot(df$Idade) # criar gráfico para a tabela
+
+# Leitura de um DataFrase via import dataset
+#para csv, instale install.packages("readr")
+#carregue library(readr)
+#depois faça normalmente
