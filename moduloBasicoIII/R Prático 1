@@ -1,0 +1,28 @@
+
+#variaveis
+x <- 10
+15 -> y
+z = 20
+
+#vetores
+w = c(1,2,3)
+q = c(4,5,6)
+
+#multiplicacao cada item do objeto
+# q * 2 ---> 8  10  12
+c = c(0,0,0) # zero considerado false
+
+w_int = as.integer(w)
+d=c('A',1)
+
+#lista
+lista_exemplo=list(10,'R',TRUE,c(1,2,3))
+
+#matriz
+matriz_exemplo = matrix(1:6,nrow=2,ncol=3) #lxc
+matriz_exemplo
+
+matriz_exemplo2 = matrix(c(10,20,30,
+                           15,16,18,
+                           14,13,18),nrow=3,byrow=TRUE)
+matriz_exemplo2
