@@ -1,0 +1,71 @@
+Recapitulação:
+
+Dados Brutos: Dados antes de serem selecionados ao aproveitamento
+Dados Líquidos: Dados selecionados com ênfase no aproveitamento
+Conhecimento: Dados processados por técnicas computacionais e estatísticas
+
+Modelagem de Dados
+
+Dados Brutos -> Dados Líquidos 
+
+Passa por Filtragem, separa o que é aproveitado do que não é aproveitado
+Critério de Corte, por exemplo:
+" 1,2,3,4,5 " -> Filtro de > 3 -> "4,5"
+Objetivo de Cair a Variabilidade dentro do Processo, assim você retira termos que não tem preço representativo tão grande
+
+Outro ponto, para análise de dados há um número n aceitável que é n < 30, ou seja, possuir uma proporção de 30/100 como amostragem
+
+Filtro de Limpeza: Retirada de informações inconsistentes, falsos ou então errados
+Filtro de Necessidade: Aplicado para retirar o que não está em evidência
+Filtro de Retenção: Aplicado quando estamos tentando validar uma percepção e separamos dados para verificar comportamento de dados restantes.
+Filtro de Robustez(necessidade): Necessidade de trabalhar com dados mais robustos, opto por separá-los no conjunto de dados.
+
+Esse filtros são usados para obterem Boas Decisões, para assim serem justificadas adiante
+
+Dados Líquidos -> Conhecimento 
+
+Concentram-se aqui os famosos DashBoards, a qual infere-se informações dos nossos dados
+
+Conhecimento -> Informação ( Aplicação prática com inferência e tomada de decisão )
+======================================================================================================================================================
+
+Exemplo Prático:
+
+TEMA: MODELO ESTATÍSTICO DE AVALIAÇÃO DO IMPACTO INFLACIONÁRIO NA DESIGUALDADE E ASSOCIAÇÕES COMPLEMENTARES, NO ESTADO X
+Base de dados com as colunas:
+* Cidade
+* Quantidade de Habitantes
+* Estado
+* Índice de Gini -. Desigualdade de Renda
+* PIB Real do último Temestre
+* IGP-M -> Inflação
+* Esperança de Vida ao nascer
+* Taxa de fecundidade
+* Renda média
+* 10 a 14 anos
+* 25 a 40 anos
+
+1. Iremos adotar um método de MÚLTIPLOS FILTROS
+2. Começaremos com um filtro de NECESSIDADE
+   a." A fim de atender as necessidades específicas de sua análise, investigação ou pesquisa "
+       I. Usaremos para retirar tudo aquilo que não é necessário para a gente no momento
+  Usaremos o GINI ( Ele olha a desigualdade)
+
+       Retira-se quantidade de habitantes, pessoas de 10 a 14 anos, pessoas de 25 a 29 anos, Renda( pois essa variável já está no índice de Gini )
+       II. O que vai sobrar de variáveis:
+  Cidade, Estado, Indice de GINI(dependente), pib real, igp-m(independente), esperança de vida ao nascer, taxa de fecundidade
+3. Agora vamos para um filtro de LIMPEZA:
+   a. Aplicando para varredura de itens falsos, incorretos ou divergentes dentro da minha lista de dados
+   Ex.:
+       O PIB é uma variável que pode não ter em todas as cidades, nesse caso, podemos tirar ele
+4.Situação Pós:
+Cidade - Rotulo
+Estado - Acompanhamento
+Indice de GINI - Variavel Dependente
+IGP-M - Variável Indpendente
+Esperança de Vida ao nascer - Acompanhamento
+Taxa de fecundidade - Acompanhamento
+
+5.Filtro de RETENÇÃO
+   a.Usaremos esse filtro para separar nosso conjunto de dados restante em um conjunto com 80/70% das observações e outro com 20/30% das observações 
+
