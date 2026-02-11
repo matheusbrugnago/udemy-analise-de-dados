@@ -1,0 +1,37 @@
+Modelagem Matemática : Modelo que utiliza de formulas matematicas para representar a relação das variáveis
+                       f(x) = 2x +1
+Modelagem Estatística : Inferência dos dados para modelagem:
+Eles surgem a partir de modelos matematicos
+
+Tipos de Model.Matematicos:
+
+Sf = S0 + v . Tempo 
+Vm = S / T
+
+São modelos teóricos
+Modelo então é um REPRESENTAÇÃO SIMPLIFICADA DA REALIDADE
+Podemos modelar qualquer informação
+
+f(x) = 3x + 2 : Os numeros 3 e 2 são parametros controlados
+Esse modelo de exemplo, precisa ser feito uma convergência entre o f(x) e o x a qual retira uma média sobre.
+Esse média deve sempre convergir à 3, mas nunca pode ficar diminuindo, e sim aumentar gradualmente.
+Isso é um baixo desempenho de modelo
+
+=========================================
+
+1°) Escolha do problema a ser modelado( entender o problema que está acontecendo)
+2°) Escolha do tipo de função a ser adotada
+3°) Levantamento dos parâmetros do modelo ( há diferentes métodos )
+4°) Testagem do modelo e análise crítica 
+Ex.: Testei a média para verificar se converge para o infinito
+5°) Publicidade ( de tornar público a quem interessar )
+
+========================================
+
+Modelos Conceituais : Mais próximos do pesquisador
+Modelos Lógicos: Mais perto das Estruturas de Dados
+Modelos Físicos: Conexão direta com o codigo do cumputador, quando precisa fazer alguma ação direta.
+
+========================================
+
+
