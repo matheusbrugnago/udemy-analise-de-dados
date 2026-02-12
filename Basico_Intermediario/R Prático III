@@ -1,0 +1,11 @@
+atlas2010
+> dim(atlas2010) #exibe a dimensão do dataframe (observações X variaveis )
+> names(atlas2010) #exibe o nome das variáveis
+
+subset(atlas2010, mort1>40) #faz uma consulta especifica de acordo com condição
+
+plot(atlas2010$mort1, atlas2010$fectot) #relacionamento de duas colunas
+
+> selecao = subset(atlas2010,mort1>40 & mort2>40) #consulta com duas condições
+
+varginha = subset(atlas2010, nome_mun == "varginha") #consulta por nome
