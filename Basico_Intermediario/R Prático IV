@@ -1,0 +1,47 @@
+Como ordenadar um conjunto de dados?
+ordenado = atlas2010[order(atlas2010$mort1), ] #defino a mort1 como variável a ordenar
+
+Como ordenar de maneira crescente?
+ordenado = atlas2010[order(atlas2010$mort1, decresaing = TRUE), ] #defino a ordenação crescente, Falso seria para decrescente
+
+Como agrupar um conjunto de dados?
+atlas_agregado = aggregate(mort1 ~ uf, data=atlas2010, FUN=mean) #defino a agregação( item à direita como agrupador), defino a operação
+#no caso, a média
+
+Como agrupar um conjunto com duas variáveis?
+aggregate(cbind(mort1. mort5) ~ uf, data=atlas2010, FUN=mean) #defino duas variáveis para utilização
+
+Abaixo, lista de operações fundamentais:
+
+mean(atlas2010$mort1) #media
+[1] 19.24698
+median(atlas2010$mort1) #mediana
+[1] 16.9
+var(atlas2010$mort1) #variancia
+[1] 50.93167
+sd(atlas2010$mort1) #desvio padrao
+[1] 7.136643
+
+Como resumir os dados?
+
+summary(atlas2010$mort1) ->  Min. 1st Qu.  Median    Mean 
+                            8.49   13.80   16.90   19.25 
+Como fazer tabela de Classes?
+
+Utilizar pacote fdtth:
+library(fdth)
+
+Definir uma Tabela de Classe de Frequencia:
+tabela= ftd(atlas2010$mort1, k=36) #busca a tabela de dados e aplica o K, quantidade de classes 
+
+Como definir um K( Quantidade de Classes )?
+K = 2*(nrow(atlas2010)^(1/3))
+
+Como descobrir o h( amplitude )/
+
+h = tabela$breaks[3]
+h_valor=as.numeric(sub("h :","",h)) 
+
+Como fazer um Histograma?
+
+ hist(atlas2010$mort1, breaks=36)
