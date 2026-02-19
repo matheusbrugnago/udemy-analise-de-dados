@@ -1,0 +1,60 @@
+Saúde:
+
+Saúde Publica: está inserido dentro da Seguridade Social, juntamente com a Previdência Social, Assistência Social e Saúde.
+
+A saúde pública visa a universialidade, integralidade e equidade. Sem contribuição direta : Saúde Complementar
+A saúde privada trabalha com contratos e convênios, planos de saúde, visa o lucro, serviço disponibilizado de acordo com o Valor Pago.
+
+* Principal Fonte de Dados de Saúde: https://datasus.saude.gov.br  , Acesso ao Tabnet ( indicadores de saúde e pactuações com o Federal)
+* Assistência à Saúde 
+* Epidemiológicas e Morbidade
+* Rede Assistencial
+* Estatísticas Vitais
+* Demográficas e Socioeconômicas
+* Inquéritos e Pesquisas
+* Saúde Suplementar ( ANS )
+* Informações Financeiras 
+
+Dados do setor privado vêm da ANS ( Agência Nacional de Saúde Suplementar )
+Dados do setor público vêm do DataSus
+Posso buscar informações de saúde no SIDRA ( No IBGE )
+
+-----> DataSus -----> TabNet -----> Estatísticas Vitais
+* Nascidos desde 1994 
+* Mortalidade - desde 1996 pela CID-10
+* Painés de Monitoramento ( SVS )
+* Correção e Redistribuição de óbitos segundo pesquisa de Busca Ativa
+* Mortalidade - 1979 a 1995, pela CID-9
+* Câncer ( sítio do Inca )
+
+-----> DataSus -----> TabNet -----> Inquéritos e Pesquisas
+* PNS - Pesquisa Nacional de Saúde - 2013
+* PNAD - Pesquisa Nacional por Amostra de Domicílios : Questionário Básico
+* PNAD - Pesquisa Nacional por Amostra de Domicílios : Suplemento Saúde
+* VIGITEL - Vigilãncia de fatores de risco e proteção para doenças crônicas
+* VIVA - Vigilância de violências e acidentes
+* Inquérito Domiciliar de Fatores de Risco para Doenças e Agravos não transmissíveis
+* Inquérito de Saúde Bucal - 1996
+* Inquérito Nacional de Prevalência da Esquitossomose e Geo-helmintoses 2011/2015
+
+
+ANS Dados Abertos: https://www.gov.br/ans/pt-br
+WHO Data: https://www.who.int/data --> OMS
+SIDRA IBGE: https://sidra.ibge.gov.br/home/pms/brasil
+            Pesquisa Nacional de Saúde
+
+
+Educação: 
+
+No INEP: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos 
+ Indicadores Educaionais:
+      Media de Horas-Aula-Diárias;
+      Nível Socioeconômico; 
+      Docentes com Curso Superior; 
+      Regularidade do Corpo Docente;
+ INEP Data ( uso de painés em BI )
+ Microdados
+      Censo da Educação Superior
+      Censo Escolar
+      Enem 
+No IPEA DATA: http://www.ipeadata.gov.br/Default.aspx
