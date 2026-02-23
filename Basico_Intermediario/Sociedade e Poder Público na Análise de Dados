@@ -1,0 +1,29 @@
+Indicadores Sociais: 
+
+É uma medida objetiva geralmente numérica, representa quantitativamente algum fato social
+Ex.: Melhoria nas Condições de Vida: Saúde, Educação, Moradia, Trabalho 
+-> Posso olhar informações no IBGE, Registros de Programas Sociais( CadUnico ), Cadastros Públicos
+
+Variável do Tipo Proxy: Que interfere em uma outra variável, e que há correlação( 1 situação que abrange outras situações )
+Se houver taxa de mortalidade infantil menor, significa que a saúde como um todo está ruim
+
+Ciências Sociais( Sociologia ):
+
+- Análise de um questionário quantitativo aplicado;
+- Análise de indicadores sociais coleta( IBGE, IPEA Data, IMRS ( Minas Gerais )
+- Processo de Linguagem Natural ( Tipo de MachineLearning - llms )
+- Análise do Discurso ( qualitativo )
+
+Poder Público:
+
+- Administração pública DIRETA( Maior possuidor de dados) - ligado ao Governo Federal
+- Administração Indireta - autarquias, fundações mistas entre público e empresa, empresa pública de sociedade mista
+- Administração ParaEstatuais - Entes autônomos, organizações sociais
+Uso de dados no setor público é por meio da LAI, Lei de Dados, decretos e normativas . . .
+
+Receita Federal têm supercomputadores, chamado de T-Rex na qual utiliza-se pelo software Arpia
+
+IBGE retira censo de tempos em tempos, além de trazer pesquisas amostrais
+Ex.: PNAD : Distribuição de Pessoas por Cor e Raça
+
+IPEA coleta dados econômicos para o Setor público
