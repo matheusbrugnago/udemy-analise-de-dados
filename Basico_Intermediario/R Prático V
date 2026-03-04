@@ -1,0 +1,30 @@
+uf_freq= sort(table(atlas2010$uf), decreasing = FALSE)
+uf_freq #crio uma base de dados ordenada com apenas os dados solicitados, crescente
+
+par(mar = c(5, 7, 4, 2)) #gera margem inferior, esquerda, superior e direita
+barplot(uf_freq,
+        main='UFs por numero de cidade em 2010',
+        xlab='Frequência',
+        horiz=TRUE,
+        las=1,
+        col='yellow',
+        border='black',
+        cex.names=0.6) #tamanho dos nomes
+
+grid(nx=10, ny=NULL, lty='dotted')
+#gráfico de barra acima
+
+plot(atlas2010$mort1,atlas2010$mort5,
+     main='Dispersão entre Mort1 e Mort5',
+     xlab='Mort1',
+     ylab='Mort5',
+     )
+#dispersao acima
+
+boxplot(atlas2010$mort1, atlas2010$mort5,
+        names = c('Mort1','Mort5'),
+        main= 'Boxplot entre Mort1 e Mort5',
+        ylab='Valor',
+        col=c('lightblue','lightgreen'))
+
+#boxplot acima
